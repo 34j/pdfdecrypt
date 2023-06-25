@@ -34,10 +34,27 @@ Simple package for decrypting PDF files
 
 ## Installation
 
-Install this via pip (or your favourite package manager):
+Install this via pip or pipx (or your favourite package manager):
 
 ```shell
-pip install pdfdecrypt
+pipx install pdfdecrypt
+```
+
+## Usage
+
+```shell
+> pdfdecrypt -h
+Usage: pdfdecrypt [OPTIONS] PATH
+
+  Decrypts a PDF file.
+
+  If PATH is a directory, recursively searches for PDF files. If PATH is a
+  file and does not exist, checks if PATH with ".pdf" extension exists. If the
+  file is not encrypted, skips it.
+
+Options:
+  -h, --help           Show this message and exit.
+  -p, --password TEXT  The password to decrypt the PDF file.
 ```
 
 ## Contributors ✨

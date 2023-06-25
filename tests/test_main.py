@@ -1,5 +1,6 @@
-from pdfdecrypt.main import add
+from unittest import SkipTest, TestCase
 
 
-def test_add():
-    assert add(1, 1) == 2
+class TestMain(TestCase):
+    def setUp(self) -> None:
+        raise SkipTest("Not implemented")

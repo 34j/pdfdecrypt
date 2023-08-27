@@ -28,7 +28,7 @@ pdfdecrypt = "pdfdecrypt.__main__:main"
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^8.1.3"
-pikepdf = "^7.2.0"
+pikepdf = "^8.0.0"
 tqdm = "^4.65.0"
 
 [tool.poetry.group.dev.dependencies]

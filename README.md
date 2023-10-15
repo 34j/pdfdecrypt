@@ -1,11 +1,10 @@
 # pdfdecrypt
 
+## Moved to [34j/decryptpdf](https://github.com/34j/decryptpdf) due to package name conflict
+
 <p align="center">
   <a href="https://github.com/34j/pdfdecrypt/actions/workflows/ci.yml?query=branch%3Amain">
     <img src="https://img.shields.io/github/actions/workflow/status/34j/pdfdecrypt/ci.yml?branch=main&label=CI&logo=github&style=flat-square" alt="CI Status" >
-  </a>
-  <a href="https://pdfdecrypt.readthedocs.io">
-    <img src="https://img.shields.io/readthedocs/pdfdecrypt.svg?logo=read-the-docs&logoColor=fff&style=flat-square" alt="Documentation Status">
   </a>
   <a href="https://codecov.io/gh/34j/pdfdecrypt">
     <img src="https://img.shields.io/codecov/c/github/34j/pdfdecrypt.svg?logo=codecov&logoColor=fff&style=flat-square" alt="Test coverage percentage">
@@ -22,23 +21,8 @@
     <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=flat-square" alt="pre-commit">
   </a>
 </p>
-<p align="center">
-  <a href="https://pypi.org/project/pdfdecrypt/">
-    <img src="https://img.shields.io/pypi/v/pdfdecrypt.svg?logo=python&logoColor=fff&style=flat-square" alt="PyPI Version">
-  </a>
-  <img src="https://img.shields.io/pypi/pyversions/pdfdecrypt.svg?style=flat-square&logo=python&amp;logoColor=fff" alt="Supported Python versions">
-  <img src="https://img.shields.io/pypi/l/pdfdecrypt.svg?style=flat-square" alt="License">
-</p>
 
-Simple package for decrypting PDF files
-
-## Installation
-
-Install this via pip or pipx (or your favourite package manager):
-
-```shell
-pipx install pdfdecrypt
-```
+Simple package for decrypting PDF files.
 
 ## Usage
 
